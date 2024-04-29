@@ -6,6 +6,7 @@ In this tutorial, you will use Chainlink CCIP to transfer tokens from a smart co
 Original tutorial: https://docs.chain.link/ccip/tutorials/cross-chain-tokens
 
 Wallet Account on Avalanche Fuji: `0x732903f195c27C45Aa86a2045aa160442608F21A`
+
 Wallet Account on Sepolia: `0x732903f195c27C45Aa86a2045aa160442608F21A`
 
 - LINK Token Contracts: https://docs.chain.link/resources/link-token-contracts
