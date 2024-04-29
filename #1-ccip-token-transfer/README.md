@@ -2,12 +2,12 @@
 
 In this tutorial, you will use Chainlink CCIP to transfer tokens from a smart contract to an account on a different blockchain. First, you will pay for the CCIP fees on the source blockchain using LINK. Then, you will use the same contract to pay CCIP fees in native gas tokens. For example, you would use ETH on Ethereum or AVAX on Avalanche.
 
-# Setup
-Original tutorial: https://docs.chain.link/ccip/tutorials/cross-chain-tokens
-
 Wallet Account on Avalanche Fuji: `0x732903f195c27C45Aa86a2045aa160442608F21A`
 
 Wallet Account on Sepolia: `0x732903f195c27C45Aa86a2045aa160442608F21A`
+
+# Setup
+Original tutorial: https://docs.chain.link/ccip/tutorials/cross-chain-tokens
 
 - LINK Token Contracts: https://docs.chain.link/resources/link-token-contracts
 - Fuji faucet: https://core.app/tools/testnet-faucet?subnet=c&token=c 
