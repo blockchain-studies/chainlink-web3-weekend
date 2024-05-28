@@ -24,3 +24,7 @@ PRIVATE_KEY=""
 ETHEREUM_SEPOLIA_RPC_URL=https://ethereum-sepolia-rpc.publicnode.com
 AVALANCHE_FUJI_RPC_URL=https://avalanche-fuji-c-chain-rpc.publicnode.com
 ```
+
+6. Deploy using Hardhat Ignition: 
+- - `npx hardhat ignition deploy ignition/modules/CCIPReceiver_Unsafe.ts --network ethereumSepolia`
+- - `npx hardhat ignition deploy ignition/modules/CCIPSender_Unsafe.ts --network avalancheFuji`
