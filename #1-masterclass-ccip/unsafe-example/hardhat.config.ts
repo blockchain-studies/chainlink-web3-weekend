@@ -17,12 +17,12 @@ const config: HardhatUserConfig = {
     ethereumSepolia: {
       url: ETHEREUM_SEPOLIA_RPC_URL !== undefined ? ETHEREUM_SEPOLIA_RPC_URL : '',
       accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
-      chainId: 11155111
+      chainId: 11155111,
     },
     avalancheFuji: {
       url: AVALANCHE_FUJI_RPC_URL !== undefined ? AVALANCHE_FUJI_RPC_URL : '',
       accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
-      chainId: 43113
+      chainId: 43113,
     }
   }
 };

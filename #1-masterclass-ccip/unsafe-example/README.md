@@ -28,3 +28,6 @@ AVALANCHE_FUJI_RPC_URL=https://avalanche-fuji-c-chain-rpc.publicnode.com
 6. Deploy using Hardhat Ignition: 
 - `npx env-enc set-pw`, after `npx hardhat ignition deploy ignition/modules/CCIPReceiver_Unsafe.ts --network ethereumSepolia` - `CCIPSender_UnsafeModule#CCIPReceiver_Unsafe - 0x8e4a83d5CeEf41017EE74a7700A3CEA87120259e`
 - `npx env-enc set-pw`, after `npx hardhat ignition deploy ignition/modules/CCIPSender_Unsafe.ts --network avalancheFuji` - `CCIPSender_UnsafeModule#CCIPSender_Unsafe - 0x73009ee3CFbd25Bbb6eDe5b0d67a4E0F2bee5322`
+
+7. Sending message using Sender on Avalanche Fuji for Receiver on Sepolia: `npx hardhat run ./scripts/SendMessageCCIP.ts --network avalancheFuji`
+8. Access CCIP Explore (https://ccip.chain.link/) and search by `0xd98a7b37c14cfe3f94a56028d157111f2cc0d412e265c42ade38b104a315628c` transaction
